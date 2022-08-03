@@ -1,10 +1,10 @@
 // link to page creation
-const generateHTML = require('./src/generateHTML');
+const generateHTML = require('./SRC/generateHTML');
 
 // team profiles
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern'); 
+const Manager = require('./Lib/Manager');
+const Engineer = require('./Lib/Engineer');
+const Intern = require('./Lib/Intern'); 
 
 // node modules 
 const fs = require('fs'); 
@@ -197,7 +197,7 @@ const addEmployee = () => {
 
 // function to generate HTML page file using file system 
 const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
+    fs.writeFile('./Dist/index.html', data, err => {
         // if there is an error 
         if (err) {
             console.log(err);
