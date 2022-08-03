@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^9.0.2"
+  },
+  "name": "profile-gen",
+  "description": "Team Profile Generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonPetz/Profile-Gen.git"
+  },
+  "author": "JacksonPetz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JacksonPetz/Profile-Gen/issues"
+  },
+  "homepage": "https://github.com/JacksonPetz/Profile-Gen#readme"
+}
