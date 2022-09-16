@@ -17,7 +17,7 @@
   
 💻 Below is the gif showing the functionality of the application:
   
-![Jackson Petz Team Profile Generator] (.SRC/functionality-gif.gif)
+![Jackson Petz Profile Gen](./SRC/functionality-gif.gif)
   
 
   
